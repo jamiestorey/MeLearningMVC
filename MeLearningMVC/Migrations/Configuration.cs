@@ -10,7 +10,6 @@ namespace MeLearningMVC.Migrations
         public Configuration()
         {
             AutomaticMigrationsEnabled = true;
-            ContextKey = "MeLearningMVC.Models.ApplicationDbContext";
         }
 
         protected override void Seed(MeLearningMVC.Models.ApplicationDbContext context)
